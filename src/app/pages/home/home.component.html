@@ -1,0 +1,48 @@
+<div>
+  <mat-form-field appearance="fill">
+    <mat-label>Search</mat-label>
+    <input matInput (keyup)="handleFullSearchChange($event)">
+    <button mat-icon-button matSuffix>
+      <mat-icon>search</mat-icon>
+    </button>
+  </mat-form-field>
+  <div class="resource-grid">
+    <div class="resource-list">
+      <mat-accordion>
+        <ng-container *ngFor="let resource of resourcesList; let i = index">
+          <mat-expansion-panel *ngIf="resource.children.length" (opened)="panelOpenState = true"
+            (closed)="panelOpenState = false" (click)="handleSelectItem(i)">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                {{ resource.name }}
+              </mat-panel-title>
+            </mat-expansion-panel-header>
+            <div class="resource-search">
+              <mat-form-field appearance="fill">
+                <mat-label>Search</mat-label>
+                <input matInput (keyup)="handleSearchChange($event)">
+                <button mat-icon-button matSuffix>
+                  <mat-icon>search</mat-icon>
+                </button>
+              </mat-form-field>
+              <button mat-raised-button color="primary" (click)="handleAddResource(i)">
+                Add <mat-icon>add</mat-icon>
+              </button>
+            </div>
+            <mat-list>
+              <ng-container *ngFor="let child of resource.children">
+                <mat-list-item (click)="handleSelectResource(child)">{{child.name}}</mat-list-item>
+                <mat-divider></mat-divider>
+              </ng-container>
+            </mat-list>
+          </mat-expansion-panel>
+        </ng-container>
+      </mat-accordion>
+    </div>
+    <div class="resource-details" *ngIf="selectedResource">
+      <app-serie-info-card [title]="selectedResource.name" [resource]="selectedResource.details"
+        (onClose)="handleCloseCard()">
+      </app-serie-info-card>
+    </div>
+  </div>
+</div>

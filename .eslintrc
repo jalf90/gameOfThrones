@@ -11,6 +11,7 @@
       "warn",
       "single"
     ],
-    "no-console": "error"
+    "no-console": "error",
+    "@typescript-eslint/explicit-module-boundary-types": "off"
   }
 }

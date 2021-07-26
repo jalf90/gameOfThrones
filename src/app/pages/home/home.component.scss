@@ -1,0 +1,10 @@
+.resource-grid {
+  display: flex;
+  flex: 1 1 auto;
+  flex-direction: row;
+}
+
+.resource-grid > * {
+  display: grid;
+  width: 100%;
+}

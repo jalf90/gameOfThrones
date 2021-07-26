@@ -1,0 +1,137 @@
+[
+  {
+    "name": "Seasons",
+    "children": [
+      {
+        "displayOrder": 1,
+        "name": "Season 1",
+        "details": {
+          "episodes": 10,
+          "description": "Season 1 of Game of Thrones consists of ten episodes, including a re-shot version of the pilot episode originally filmed in October and November 2009, and was otherwise filmed between 23 July and 18 December 2010. Season 1 had a budget of $60",
+          "transmitionDates": "17 April 2011 to 29 June 2011",
+          "productionDates": "23 July 2010 to 18 December 2010"
+        }
+      },
+      {
+        "displayOrder": 2,
+        "name": "Season 2",
+        "details": {
+          "episodes": 10,
+          "description": "Season 2 of Game of Thrones consists of 10 episodes and began filming on 25 July 2011 and wrapped on 12 December 2011. Season 2 has a budget 15% higher than Season 1, putting it in the region of $69 million. David Benioff and D.B. Weiss returned as executive producers and show runners.",
+          "transmitionDates": "1 April 2012 to 3 June 2012",
+          "productionDates": "25 July 2011 to 12 December 2011"
+        }
+      },
+      {
+        "displayOrder": 3,
+        "name": "Season 3",
+        "details": {
+          "episodes": 10,
+          "description": "Season 3 of Game of Thrones was commissioned on 10 April 2012, following a major increase in audience figures between the first two seasons. It consists of ten episodes and began filming on 10 July 2012.. It concluded filming on 24 November 2012. David Benioff and D.B. Weiss returned as executive producers and show runners.",
+          "transmitionDates": "31 March 2013 to 9 June 2013",
+          "productionDates": "10 July 2012 to 24 November 2012"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Episodes",
+    "children": [
+      {
+        "displayOrder": 1,
+        "name": "Winter Is Coming",
+        "details": {
+          "rate": 9.1,
+          "votes": 42461,
+          "description": "Eddard Stark is torn between his family and an old friend when asked to serve at the side of King Robert Baratheon; Viserys plans to wed his sister to a nomadic warlord in exchange for an army.",
+          "releaseDate": "05.06.2011"
+        }
+      },
+      {
+        "displayOrder": 2,
+        "name": "The Kingsroad",
+        "details": {
+          "rate": 8.8,
+          "votes": 32101,
+          "description": "While Bran recovers from his fall, Ned takes only his daughters to King's Landing. Jon Snow goes with his uncle Benjen to the Wall. Tyrion joins them.",
+          "releaseDate": "12.06.2011"
+        }
+      },
+      {
+        "displayOrder": 3,
+        "name": "Lord Snow",
+        "details": {
+          "rate": 8.7,
+          "votes": 30358,
+          "description": "Jon begins his training with the Night's Watch; Ned confronts his past and future at King's Landing; Daenerys finds herself at odds with Viserys.",
+          "releaseDate": "01.05.2011"
+        }
+      },
+      {
+        "displayOrder": 4,
+        "name": "Cripples, Bastards, and Broken Things",
+        "details": {
+          "rate": 8.8,
+          "votes": 28819,
+          "description": "Eddard investigates Jon Arryn's murder. Jon befriends Samwell Tarly, a coward who has come to join the Night's Watch.",
+          "releaseDate": "08.05.2011"
+        }
+      },
+      {
+        "displayOrder": 5,
+        "name": "The Wolf and the Lion",
+        "details": {
+          "rate": 9.1,
+          "votes": 29985,
+          "description": "Catelyn has captured Tyrion and plans to bring him to her sister, Lysa Arryn, at the Vale, to be tried for his, supposed, crimes against Bran. Robert plans to have Daenerys killed, but Eddard refuses to be a part of it and quits.",
+          "releaseDate": "12.06.2011"
+        }
+      }
+    ]
+  },
+  {
+    "name": "Cast",
+    "children": [
+      {
+        "name": "Peter Dinklage",
+        "role": "Tyrion Lannister",
+        "details": {
+          "episodes": 62,
+          "description": "Peter Dinklage is an American actor. Since his breakout role in Le chef de gare (2003), he has appeared in numerous films and theatre plays. Since 2011, Dinklage has portrayed Tyrion Lannister in the HBO series Game of Thrones (2011).",
+          "birth": "11.06.1969",
+          "city": "Morristown, New Jersey, USA"
+        }
+      },
+      {
+        "name": "Lena Headey",
+        "role": "Cersei Lannister",
+        "details": {
+          "episodes": 62,
+          "description": "Lena Headey is a Bermudian-British actress. Headey is best known for her role as \"Cersei Lannister\" in Game of Thrones (2011) (2011-2019) and Les frères Grimm (2005), Possession (2002), and Les vestiges du jour (1993).",
+          "birth": "03.10.1973",
+          "city": "Hamilton, Bermuda"
+        }
+      },
+      {
+        "name": "Emilia Clarke",
+        "role": "Daenerys Targaryen",
+        "details": {
+          "episodes": 62,
+          "description": "British actress Emilia Clarke was born in London and grew up in Oxfordshire, England. Her father was a theatre sound engineer and her mother is a businesswoman. Her father was working on a theatre production of \"Show Boat\" and her mother took her along to the performance.",
+          "birth": "23.10.1986",
+          "city": "London, England, UK"
+        }
+      },
+      {
+        "name": "Sophie Turner",
+        "role": "Sansa Stark",
+        "details": {
+          "episodes": 59,
+          "description": "Sophie Belinda Jonas (née Turner; born February 21, 1996) is an English actress. Turner made her professional acting debut as Sansa Stark on the HBO fantasy television series Game of Thrones (2011) (2011-2019), which brought her international recognition and critical praise.",
+          "birth": "21.02.1996",
+          "city": "Northampton, Northamptonshire, England, UK"
+        }
+      }
+    ]
+  }
+]

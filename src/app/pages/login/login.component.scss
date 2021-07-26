@@ -1,3 +1,5 @@
+@import "/src/styles.scss";
+
 .example-container .mat-form-field + .mat-form-field {
   margin-left: 8px;
 }
@@ -13,4 +15,23 @@ input.example-right-align::-webkit-inner-spin-button {
 
 input.example-right-align {
   -moz-appearance: textfield;
+}
+
+.login-box {
+  margin: auto;
+  padding: 50px;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid lightgray;
+  box-shadow: 0px 0px 4px gray;
+
+  mat-form-field {
+    width: 100%;
+  }
+
+  button {
+    width: 50%;
+    margin: 0 auto;
+  }
 }
